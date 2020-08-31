@@ -26,7 +26,9 @@
   "rules": {
     "no-underscore-dangle": "off",
     "prettier/prettier": "error",
+    "no-restricted-syntax": ["error", "ForInStatement", "LabeledStatement", "WithStatement"],
     "class-methods-use-this": "off",
+    "no-await-in-loop": "off",
     "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/no-unused-vars": ["error", {
       "argsIgnorePattern": "_"
